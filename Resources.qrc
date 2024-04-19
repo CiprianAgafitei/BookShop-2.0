@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bookstore.ico</file>
+        <file>images/homeBooks.png</file>
+        <file>Eserciziari_1.ico</file>
+        <file>Letture_1.ico</file>
+        <file>LibriDiTesto_1.ico</file>
+        <file>back-button.ico</file>
+        <file>addBook.ico</file>
+        <file>BookRemove.ico</file>
+        <file>cancelBook.ico</file>
+        <file>EditBook.ico</file>
+        <file>InsertBook.ico</file>
+    </qresource>
+</RCC>
