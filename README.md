@@ -129,18 +129,17 @@ In questo modo, all’avvio dell’applicazione verranno caricati i libri dal fi
 visualizzati nelle varie tabelle (se non presenti, verranno inseriti dei libri di default, inizializzati, per poter visualizzare comunque il 
 funzionamento del programma).
 Successivamente vi è il salvataggio dei dati effettuato dopo ogni operazione che comporti la modifica dei libri, per non perdere 
-aggiornamenti alle informazioni dei libri.
+aggiornamenti alle informazioni dei libri. I libri vengono salvati del file „libri.json”.
 
-I libri vengono salvati del file „libri.json”.
-Funzionalità implementate
-Funzionalità codice C++:
+***Funzionalità implementate***
+
+*Funzionalità codice C++*:
 ✓ Gestione di una gerarchia di tre classi derivate da una classe madre astratta
-✓ Creazione di un contenitore nativo contenente oggetti della gerarchia con relative operazioni di inserimento, rimozione, 
-ricerca, lettura in base ad alcuni criteri, aggiornamento informazioni
+✓ Creazione di un contenitore nativo contenente oggetti della gerarchia con relative operazioni di inserimento, rimozione, ricerca, lettura in base ad alcuni criteri, aggiornamento informazioni
 ✓ Creazione di vettori contenenti gli oggetti di ciascuna categoria di libri
-✓ Salvataggio su file JSON con lettura all’avvio del programma e caricamento automatico di alcuni oggetti libro per 
-consentire operazioni di prova in caso il programma venga eseguito per la prima volta
-Funzionalità grafiche:
+✓ Salvataggio su file JSON con lettura all’avvio del programma e caricamento automatico di alcuni oggetti libro per consentire operazioni di prova in caso il programma venga eseguito per la prima volta 
+
+*Funzionalità grafiche*:
 ✓ Accesso all’applicazione tramite pulsante iniziale „Entra”
 ✓ Utilizzo di titoli e caratteri speciali ed immagine per la schermata principale
 ✓ Inserimento icona per l’applicazione e relativo nome dell’applicativo
@@ -154,22 +153,17 @@ Funzionalità grafiche:
 ✓ Righe delle tabelle selezionabili singolarmente
 ✓ Barra di ricerca sottostante a ciascuna tabella nella propria schermata → ricerca in base a qualsiasi criterio
 ✓ Opzione di modifica informazioni di ciascuna riga disabilitata
-✓ Colonna laterale sulla destra con pulsanti, con icone, per le varie operazioni da eseguire, ciascuno con suggerimento 
-all’operazione a cui fa riferimento
+✓ Colonna laterale sulla destra con pulsanti, con icone, per le varie operazioni da eseguire, ciascuno con suggerimento all’operazione a cui fa riferimento
 ✓ Pulsante „Nuovo libro” visibile anche singolarmente se non viene selezionata nessuna riga della tabella
 ✓ Possibilità di inserire un nuovo libro attraverso una schermata con i campi necessari per la creazione del nuovo libro
-✓ Controlli disponibilità (valori tra 0 e 100 compresi) e confronto isbn con gli altri già esistenti per evitare di creare nuovi libri 
-con codici isbn già esistenti
+✓ Controlli disponibilità (valori tra 0 e 100 compresi) e confronto isbn con gli altri già esistenti per evitare di creare nuovi libri con codici isbn già esistenti
 ✓ Selezione singola delle righe delle tabelle e comparsa dei restanti pulsanti relativi alle operazioni da eseguire sui libri
 ✓ Rimozione di un libro selezionato con condizione che la sua disponibilità sia uguale a 0
-✓ Aggiornamento della quantità di un libro aggiungendone/rimuovendone uno dal libro selezionato nella tabella con relativo 
-messaggio di avvenuto/a inserimento/rimozione
+✓ Aggiornamento della quantità di un libro aggiungendone/rimuovendone uno dal libro selezionato nella tabella con relativo messaggio di avvenuto/a inserimento/rimozione
 ✓ Opzione di modifica delle informazioni del libro selezionato
 ✓ Campi per la modifica delle informazioni apparte il campo isbn non modificabile (disabilitato)
 ✓ Pulsante „Salva” per il salvataggio delle modifiche apportate
-✓ Aggiornamento immediato con le modifiche apportate (sia cancellazione, rimozione, inserimento e creazione) sia nelle tabelle 
-sia nel file JSON
-✓ Campi „difficoltà” della categoria „eserciziari” e „livello di apprendimento” della categoria „libri di testo” con valori accettati 
-compresi tra 1 e 3 (1,2,3)
+✓ Aggiornamento immediato con le modifiche apportate (sia cancellazione, rimozione, inserimento e creazione) sia nelle tabelle sia nel file JSON
+✓ Campi „difficoltà” della categoria „eserciziari” e „livello di apprendimento” della categoria „libri di testo” con valori accettati compresi tra 1 e 3 (1,2,3)
 ✓ Applicazione sconti ai libri di ciascuna categoria, sulla base dei rispettivi criteri, al momento della creazione del libro
 ✓ Messaggi di errore in caso di condizioni non rispettate per tutte le opzioni
